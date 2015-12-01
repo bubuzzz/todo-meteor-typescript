@@ -1,0 +1,17 @@
+<template name="task">
+	<form class="form" >
+		<input type="text" name="title">
+		<input type="submit" class='submit' value="submit"/>
+	</form>
+	<ul>
+	{{#each tasks}}
+		{{> item}}
+	{{/each}}
+	</ul>
+</template>
+
+<template name="item">
+
+  <li class="item">{{title}}</li>
+
+</template>
