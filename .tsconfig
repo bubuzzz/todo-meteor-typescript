@@ -1,6 +1,6 @@
 {
   "diagnostics": true,
-  "module": "none",
+  "module": "commonjs",
   "alwaysThrow": true,
   "noResolve": true,
   "useCache": false
