@@ -1,6 +1,6 @@
 // declare var AbstractService: any;
-declare var AbstractService: any;
-AbstractService= class AbstractService {
+
+export class AbstractService {
 	constructor() {}
 	
 	public initMethod(method:{[key:string]:any}) {

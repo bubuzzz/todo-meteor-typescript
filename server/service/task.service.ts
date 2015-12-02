@@ -1,10 +1,11 @@
 /// <reference path="../service/abstract.service.ts" />
 
-declare var TaskService: any;
-TaskService = class TaskService {
+import {AbstractService} from './abstract.service';
+
+export class TaskService extends AbstractService {
 	constructor() {
-		var abstractService = new AbstractService();
-		abstractService.initMethod({
+		super();
+		this.initMethod({
 			"TaskService.addTask": this.addTask
 		});		
 	}
