@@ -1,3 +1,3 @@
 # todo-meteor-typescript
 
-- An implement of todo app from Meteor in Typescript
+- An implementation of todo app from Meteor in Typescript
