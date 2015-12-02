@@ -28,8 +28,4 @@ underscore
 meteortypescript:typescript-libs
 momentjs:moment
 
-# aramk:requirejs
-# mrt:exports
-# meteorhacks:npm
-
-# npm-container
+compiler
